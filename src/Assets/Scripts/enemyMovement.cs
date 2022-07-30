@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemyMovement : MonoBehaviour
 {
-    [SerializeField]private float speed = 1;
+    [SerializeField]private float speed = 5;
     private Rigidbody2D body;
     
     
@@ -18,10 +18,11 @@ public class enemyMovement : MonoBehaviour
     {
         body.velocity = new Vector2(speed,body.velocity.y);
         
-
+        
     }
     void OnCollisionEnter2D (Collision2D collision)
     {   
        speed *= - 1;
+       transform.Rotate(0f,180f,0f);
     }
 }
