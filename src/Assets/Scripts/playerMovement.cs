@@ -21,7 +21,6 @@ public class playerMovement : MonoBehaviour
         if (!isRight && horizontalInput > 0){
             transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
             isRight = true;
-            Debug.Log("rotated right lol");
         }
         else if (isRight && horizontalInput < 0){
             transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
