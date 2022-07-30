@@ -15,7 +15,6 @@ public class bullet : MonoBehaviour{
 
     void OnTriggerEnter2D (Collider2D collision)
     {   
-        Debug.Log("yo");
         Destroy(gameObject);
 
     }
