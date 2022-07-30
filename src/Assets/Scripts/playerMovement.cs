@@ -19,15 +19,10 @@ public class playerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontalInput*speed,body.velocity.y);
         //Flip Player
 
-        if (!isRight && horizontalInput > 0){
+        if ((!isRight && horizontalInput > 0) || (isRight && horizontalInput < 0)){
             transform.Rotate(0f,180f,0f);
-            isRight = true;
+            isRight = !isRight;
         }
-
-        else if (isRight && horizontalInput < 0){
-            transform.Rotate(0f,180f,0f);
-            isRight = false;
-            }
 
         //Player Jump
         if(Input.GetKey(KeyCode.Space))
