@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class weapon : MonoBehaviour
 {
+    [SerializeField] private int shotDelay = 1;
+
     public Transform firePoint;
     public GameObject bulletPrefab;
-    public bool Shot = true;
+    public bool canShoot = true;
     
 
 
@@ -14,27 +16,19 @@ public class weapon : MonoBehaviour
     void Update()
     {
         
-        if (Shot == false) 
-          {
-              
-              StartCoroutine(ShootDelay());
-              
-          }
-        
-        else if(Input.GetKey(KeyCode.J) && Shot == true)
+        if(Input.GetKey(KeyCode.J) && canShoot == true)
         {
             Shoot();
-            
-            Shot = false;
+            canShoot = false;
+            StartCoroutine(ShootDelay());
         }
             
     }
     IEnumerator ShootDelay()
-   {
-     yield return new WaitForSeconds(1);
-     Debug.Log("I've Waited");
-     Shot = true;
-   }
+    {
+     yield return new WaitForSeconds(shotDelay);
+     canShoot = true;
+    }
   
     void Shoot()
     {
