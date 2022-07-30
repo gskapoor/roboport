@@ -19,11 +19,12 @@ public class playerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontalInput*speed,body.velocity.y);
         //Flip Player
         if (!isRight && horizontalInput > 0){
-            transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
+            transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
             isRight = true;
+            Debug.Log("rotated right lol");
         }
         else if (isRight && horizontalInput < 0){
-            transform.localScale = new Vector3(-1*transform.localScale.x,transform.localScale.y,transform.localScale.z);
+            transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
             isRight = false;
         }
         //PLayer Jump
