@@ -9,8 +9,9 @@ public class bullet : MonoBehaviour{
     public Rigidbody2D rb;
 
     // Start is called before the first frame update
-    void Start (){
+    IEnumerator Start (){
         rb.velocity = transform.right * speed;
+        yield return new WaitForSeconds(2f);
     }
 
     void OnTriggerEnter2D (Collider2D collision)
