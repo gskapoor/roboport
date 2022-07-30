@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class weapon : MonoBehaviour
 {
-    [SerializeField] private int shotDelay = 1;
+    [SerializeField] private float shotDelay = 0.2f;
 
     public Transform firePoint;
     public GameObject bulletPrefab;

@@ -5,7 +5,9 @@ using UnityEngine;
 public class enemyMovement : MonoBehaviour
 {
     [SerializeField]private float speed = 1;
-    [SerializeField]private bool isRight = true;
+    private Rigidbody2D body;
+    
+    
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -14,6 +16,12 @@ public class enemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        body.velocity = new Vector2(speed,body.velocity.y);
         
+
+    }
+    void OnCollisionEnter2D (Collision2D collision)
+    {   
+       speed *= - 1;
     }
 }
