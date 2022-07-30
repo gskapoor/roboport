@@ -19,11 +19,11 @@ public class playerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontalInput*speed,body.velocity.y);
         //Flip Player
         if (!isRight && horizontalInput > 0){
-            transform.rotate(0f, 180f, 0f);
+            transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
             isRight = true;
         }
         else if (isRight && horizontalInput < 0){
-            transform.rotate(0f, 180f, 0f);
+            transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
             isRight = false;
         }
         //Player Jump
