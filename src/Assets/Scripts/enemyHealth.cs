@@ -5,14 +5,16 @@ using UnityEngine;
 public class enemyHealth : MonoBehaviour
 {
     
-    [SerializeField]private float health = 5;
+    [SerializeField]public float health = 5;
 
-    void Update()
+    public void TakeDamage(int damage)
     {
-        if (health == 0){
-            Destroy(gameObject);         
+        health -= damage;
+    
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
-
     }
 
 }
