@@ -27,9 +27,10 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1 * transform.localScale.x,transform.localScale.y,transform.localScale.z);
             isRight = false;
         }
-        //PLayer Jump
+        //Player Jump
         if(Input.GetKey(KeyCode.Space))
             body.velocity = new Vector2(body.velocity.x,jumpSpeed);
+        //Player Shoot
     }
 
 }
