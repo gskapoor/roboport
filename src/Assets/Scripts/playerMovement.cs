@@ -8,8 +8,8 @@ public class playerMovement : MonoBehaviour
     [SerializeField]private bool isRight = true;
     [SerializeField]private float error = 0.1f;
     [SerializeField] private float jumpyDelay = 0.2f;
-    private int jumpAmt = 0;
     [SerializeField ]private int jumpMax = 2;
+    private int jj;
     private bool canJump = true;
     private Rigidbody2D body;
     private BoxCollider2D col;
@@ -19,6 +19,7 @@ public class playerMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
+        jj = jumpMax;
     }
     private void Update()
     {
@@ -35,14 +36,14 @@ public class playerMovement : MonoBehaviour
         //Player Jump
     
         if (isGrounded()){
-            jumpAmt = 0;
+            jumpMax = jj;
         }
-        if(Input.GetKey(KeyCode.Space) && jumpAmt < jumpMax && canJump)
+        if(Input.GetKey(KeyCode.Space) && jumpMax > 0 && canJump == true)
         {
-            body.velocity = new Vector2(body.velocity.x,jumpSpeed);
             canJump = false;
-            jumpAmt += 1;
-            Debug.Log(jumpAmt);
+            body.velocity = new Vector2(body.velocity.x,jumpSpeed);
+            jumpMax -= 1;
+            Debug.Log(jj);
             StartCoroutine(jumpDelay());
         }
     }
