@@ -15,6 +15,7 @@ EditorUserSettings:
       value: 05080600000c5d5d5e0d0e71477b0744404f4f722d7e27667479456bbae46161
       flags: 0
     RecentlyUsedSceneGuid-3:
+<<<<<<< Updated upstream
       value: 52050651065450020c0b092313260716154e19287c7e24662b281865b1e66160
       flags: 0
     RecentlyUsedSceneGuid-4:
@@ -32,6 +33,12 @@ EditorUserSettings:
 =======
       value: 0153025e01035a0e5a0d0921137359144e4e1d7e742a25667b784461b2b3676a
 >>>>>>> parent of 7118ef7 (box collision)
+=======
+      value: 0153025e01035a0e5a0d0921137359144e4e1d7e742a25667b784461b2b3676a
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 570856035c560c5d595b0d7243745c4417164f287c7a23647b7c496ab2b2623a
+>>>>>>> Stashed changes
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
