@@ -199,3 +199,5 @@ MonoBehaviour:
   jumpSpeed: 20
   isRight: 1
   error: 0.1
+  jumpyDelay: 0.2
+  jumpMax: 0
