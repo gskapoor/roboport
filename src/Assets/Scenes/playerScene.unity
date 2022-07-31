@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &336934668
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +235,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+=======
+>>>>>>> b4db33c77481a2bdad8bffd99c3e0b895d7655bd
 --- !u!1 &432003509
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +249,11 @@ GameObject:
   - component: {fileID: 432003511}
   - component: {fileID: 432003510}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: floor
+=======
+  m_Name: Square
+>>>>>>> b4db33c77481a2bdad8bffd99c3e0b895d7655bd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -345,6 +352,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &670615583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -402,6 +410,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a8a663e28fa5a24db9cc6fb856c4c16, type: 3}
+=======
+>>>>>>> b4db33c77481a2bdad8bffd99c3e0b895d7655bd
 --- !u!1 &836285185
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +530,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1227622408
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,3 +699,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90e891f53f558324c943eaa39638d4b6, type: 3}
+=======
+>>>>>>> b4db33c77481a2bdad8bffd99c3e0b895d7655bd
