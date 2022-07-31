@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class playerMovement : MonoBehaviour
@@ -6,10 +7,10 @@ public class playerMovement : MonoBehaviour
     [SerializeField]private float jumpSpeed = 1;
     [SerializeField]private bool isRight = true;
     [SerializeField]private float error = 0.1f;
-
+    [SerializeField] private float jumpyDelay = 0.2f;
     private int jumpAmt = 0;
-    private int jumpMax = 2;
-    
+    [SerializeField ]private int jumpMax = 2;
+    private bool canJump = true;
     private Rigidbody2D body;
     private BoxCollider2D col;
     
@@ -36,11 +37,13 @@ public class playerMovement : MonoBehaviour
         if (isGrounded()){
             jumpAmt = 0;
         }
-        if(Input.GetKey(KeyCode.Space) && jumpAmt < jumpMax)
+        if(Input.GetKey(KeyCode.Space) && jumpAmt < jumpMax && canJump)
         {
             body.velocity = new Vector2(body.velocity.x,jumpSpeed);
+            canJump = false;
             jumpAmt += 1;
-            
+            Debug.Log(jumpAmt);
+            StartCoroutine(jumpDelay());
         }
     }
     private bool isGrounded(){
@@ -57,6 +60,11 @@ public class playerMovement : MonoBehaviour
 
         Debug.DrawRay(col.bounds.center,Vector2.down * (col.bounds.extents.y + error),rayColor);
         return hit.collider != null;
+    }
+    IEnumerator jumpDelay()
+    {
+     yield return new WaitForSeconds(jumpyDelay);
+     canJump = true;
     }
 
     
