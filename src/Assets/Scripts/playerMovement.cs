@@ -6,16 +6,19 @@ public class playerMovement : MonoBehaviour
     [SerializeField]private float speed = 1;
     [SerializeField]private float jumpSpeed = 1;
     [SerializeField]private bool isRight = true;
+    [SerializeField]private bool doubleJumpEnabled = false;
     [SerializeField]private float error = 0.1f;
     //[SerializeField]private bool djumpUnlocked = false;
     private Rigidbody2D body;
     private BoxCollider2D col;
+    private bool doubleJump;
     
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
+        doubleJump = true;
         
     }
     private void Update()
@@ -31,10 +34,9 @@ public class playerMovement : MonoBehaviour
         }
 
         //Player Jump
-        if(Input.GetButtonDown("Jump") && isGrounded())
+        if (Input.GetButtonDown("Jump") && (isGrounded() || (doubleJumpEnabled && doubleJump)))
         {
-            
-
+            doubleJump = isGrounded();
             body.velocity = new Vector2(body.velocity.x,jumpSpeed);
         }
 
