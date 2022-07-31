@@ -434,6 +434,12 @@ MonoBehaviour:
   speed: 20
   jumpSpeed: 20
   isRight: 1
+<<<<<<< HEAD
+=======
+  platformLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+>>>>>>> parent of 898115a (z)
 --- !u!1 &648026632
 GameObject:
   m_ObjectHideFlags: 0
