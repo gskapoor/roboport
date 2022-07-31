@@ -6,6 +6,7 @@ public class portalScript : MonoBehaviour
 {
     public GameObject Portal;
     public GameObject Player;
+    [SerializeField] public float portalOffset = -1f;
 
 
 
@@ -24,6 +25,6 @@ public class portalScript : MonoBehaviour
  IEnumerator Teleport()
     {
     yield return new WaitForSeconds (0.5f);
-    Player.transform.position = new Vector2 (Portal.transform.position.x - 1f, Portal.transform.position.y);
+    Player.transform.position = new Vector2 (Portal.transform.position.x + portalOffset, Portal.transform.position.y);
     }
 }
