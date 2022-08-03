@@ -1,0 +1,921 @@
+[33mcommit 2f8b9ee3aba9ae8a669be86c2c93fb2cbcb5b149[m[33m ([m[1;36mHEAD -> [m[1;32mtest[m[33m, [m[1;31morigin/test[m[33m)[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sun Jul 31 10:09:34 2022 -0700
+
+    Portals added
+
+:100644 100644 827bb6b 9d83669 M	src/Assets/Scenes/levels/level_1.unity
+:000000 100644 0000000 83397d9 A	src/Assets/Scripts/portalScript.cs
+:000000 100644 0000000 0de4a2d A	src/Assets/Scripts/portalScript.cs.meta
+
+[33mcommit f190b3de228ee40812ac5a0e454c780c3b199189[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 10:08:10 2022 -0700
+
+    changes to hero.meta
+
+:100644 100644 4c2d1b9 9a475e1 M	src/Assets/Sprites/hero.png.meta
+
+[33mcommit f79455cd7f107ea3de2d05c7f27d37470f0a7d7a[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 03:35:34 2022 -0700
+
+    more stage 1 changes
+
+:100644 100644 994fce8 827bb6b M	src/Assets/Scenes/levels/level_1.unity
+
+[33mcommit f936fecb176de7335f08a87c2efe7268116ac896[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 03:35:23 2022 -0700
+
+    added double jump
+
+:100644 100644 e4cc91a 232418b M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit e5bf72629bfcb8a2dc33859e52f013af64523757[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 03:18:08 2022 -0700
+
+    added gun removal feature
+
+:000000 100644 0000000 3e7d9c4 A	src/Assets/Scripts/removeTerrain.cs
+:000000 100644 0000000 99303ad A	src/Assets/Scripts/removeTerrain.cs.meta
+
+[33mcommit 85e8fab3e4ac90104eac712a5e07ccdeccac7719[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 02:13:44 2022 -0700
+
+    unknown level1 addition
+
+:100644 100644 78740f6 994fce8 M	src/Assets/Scenes/levels/level_1.unity
+
+[33mcommit 00739845e6e87bb09a4c9bed27da13b468864c0d[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 02:09:21 2022 -0700
+
+    new hero
+
+:000000 100644 0000000 0a09937 A	sprites/aseprite/hero.png
+:100644 100644 ae88593 fcf0ac4 M	src/Assets/Objects/player.prefab
+:000000 100644 0000000 45ca1b2 A	src/Assets/Sprites/hero.png
+:000000 100644 0000000 4c2d1b9 A	src/Assets/Sprites/hero.png.meta
+:100644 000000 7ec5bd9 0000000 D	src/Assets/Sprites/water.aseprite
+:100644 000000 4159419 0000000 D	src/Assets/Sprites/water.aseprite.meta
+
+[33mcommit 0d4553f51c389dc7631e53d980f842d8dace41db[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sun Jul 31 02:01:23 2022 -0700
+
+    Pure Single Jump
+
+:100644 100644 c90c5c9 ae88593 M	src/Assets/Objects/player.prefab
+:100644 100644 db977c6 66a7c86 M	src/Assets/Scenes/testScene.unity
+:100644 100644 d61706c e4cc91a M	src/Assets/Scripts/playerMovement.cs
+:100644 100644 b16147e 05cf955 M	src/ProjectSettings/InputManager.asset
+
+[33mcommit f6340ca8a8d0f9f84c729fe334f4f65f14910d6b[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 01:57:30 2022 -0700
+
+    add water
+
+:000000 100644 0000000 5ff05a7 A	src/Assets/Sprites/water.png
+:000000 100644 0000000 ee415f0 A	src/Assets/Sprites/water.png.meta
+:000000 100644 0000000 51883bc A	src/Assets/Tiles/ts_base/water.asset
+:000000 100644 0000000 73997f1 A	src/Assets/Tiles/ts_base/water.asset.meta
+
+[33mcommit 43335c445f869df789eb56811a75c8f3c67cd379[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 01:50:21 2022 -0700
+
+    water
+
+:100644 100644 f08d44f 0b7fea0 M	src/Assets/Grass/Grass.prefab
+:100644 100644 4d6336d 78740f6 M	src/Assets/Scenes/levels/level_1.unity
+
+[33mcommit a2c5658866d73fe227b302f0e4024c889b1350d3[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sun Jul 31 01:44:05 2022 -0700
+
+    added new level and tiles
+
+:100644 100644 dc3af06 f08d44f M	src/Assets/Grass/Grass.prefab
+:100644 100644 d29cceb 4d6336d M	src/Assets/Scenes/levels/level_1.unity
+:000000 100644 0000000 f2f873f A	src/Assets/Sprites/battery.png
+:000000 100644 0000000 ce24c5e A	src/Assets/Sprites/battery.png.meta
+:000000 100644 0000000 7ec5bd9 A	src/Assets/Sprites/water.aseprite
+:000000 100644 0000000 4159419 A	src/Assets/Sprites/water.aseprite.meta
+:000000 100644 0000000 12ccffb A	src/Assets/Tiles/ts_base/battery.asset
+:000000 100644 0000000 0f39330 A	src/Assets/Tiles/ts_base/battery.asset.meta
+
+[33mcommit 13ec1901f4864fa2fcdcf86f3f2e5d3446646aa9[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 22:57:03 2022 -0700
+
+    added portal andstuff
+
+:000000 100644 0000000 d5991b5 A	sprites/aseprite/hero.aseprite
+:100644 100644 225470f a998d5c M	sprites/aseprite/spriteSheet.aseprite
+:100644 100644 db9cd63 dc3af06 M	src/Assets/Grass/Grass.prefab
+:100644 100644 cb106fd d4bab1e M	src/Assets/Sprites/spriteSheet.png
+:100644 100644 538dd4f b4cb739 M	src/Assets/Sprites/spriteSheet.png.meta
+:000000 100644 0000000 68e548a A	src/Assets/Tiles/ts_base/spriteSheet_28.asset
+:000000 100644 0000000 500768d A	src/Assets/Tiles/ts_base/spriteSheet_28.asset.meta
+:000000 100644 0000000 090f4d6 A	src/Assets/Tiles/ts_base/spriteSheet_29.asset
+:000000 100644 0000000 9c19028 A	src/Assets/Tiles/ts_base/spriteSheet_29.asset.meta
+:000000 100644 0000000 57bbf6d A	src/Assets/Tiles/ts_base/spriteSheet_30.asset
+:000000 100644 0000000 511d372 A	src/Assets/Tiles/ts_base/spriteSheet_30.asset.meta
+
+[33mcommit 50dbe8604ce9d711dfadfd946ae09e58a8ca8a73[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 22:36:23 2022 -0700
+
+    added colorful void
+
+:100644 100644 87f9a85 db9cd63 M	src/Assets/Grass/Grass.prefab
+:100644 100644 92ed8d9 d29cceb M	src/Assets/Scenes/levels/level_1.unity
+:100644 100644 18525da d5f05e9 M	src/Assets/Tiles/ts_base/ethereal.asset
+
+[33mcommit 2dfd1b7b9481f1c9c42239628597bbbb9994df50[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 21:28:01 2022 -0700
+
+    Change Settings
+
+:100644 100644 6cfcdda a702482 M	src/ProjectSettings/Physics2DSettings.asset
+:100644 100644 435fe23 b94915f M	src/ProjectSettings/QualitySettings.asset
+:100644 100644 6a101ae aff8aa9 M	src/ProjectSettings/TagManager.asset
+
+[33mcommit 846cd88e42f62c72e538344ffe952f471c273355[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 21:26:03 2022 -0700
+
+    Update playerMovement.cs
+
+:100644 100644 0176ef9 d61706c M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 1cb20012e03eb63ed92dd58b80876f8cd43ad79b[m[33m ([m[1;31morigin/bestOld[m[33m)[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 21:04:06 2022 -0700
+
+    Removed dumb files
+
+:100644 100644 f3f08d8 778563b M	.gitignore
+:100644 000000 8ef18e5 0000000 D	src/UserSettings/EditorUserSettings.asset
+:100644 000000 563a173 0000000 D	src/UserSettings/Layouts/default-2021.dwlt
+:100644 000000 dba62d5 0000000 D	src/UserSettings/Search.index
+:100644 000000 e569c31 0000000 D	src/UserSettings/Search.settings
+
+[33mcommit 7fa7f6d46cbd63937ed6a2171e22552f875cfb0e[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 21:03:19 2022 -0700
+
+    Messing With RayCast
+
+:000000 100644 0000000 c90c5c9 A	src/Assets/Objects/player.prefab
+:000000 100644 0000000 32dffdb A	src/Assets/Objects/player.prefab.meta
+:000000 100644 0000000 a7e0a8a A	src/Assets/Objects/tally.prefab
+:000000 100644 0000000 e0b3fd8 A	src/Assets/Objects/tally.prefab.meta
+:100644 100644 38783c4 0176ef9 M	src/Assets/Scripts/playerMovement.cs
+:000000 100644 0000000 cfaebd7 A	src/ProjectSettings/TimelineSettings.asset
+:100644 100644 8ef18e5 3991547 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit cf77a3ae6bec4994e4e105115d1391d36e8b12ba[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 20:38:45 2022 -0700
+
+    removed User Settings directory, it is very bad
+
+:100644 100644 f7a5ed8 f3f08d8 M	.gitignore
+
+[33mcommit 10ac8b421dec6eed0d09843d405de6bb86973a96[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 20:38:01 2022 -0700
+
+    removed User Settings directory, it is very bad
+
+:100644 100644 8f2d951 f7a5ed8 M	.gitignore
+
+[33mcommit bddb925008b4bea9cbb1566454bd2f6f2f916fdc[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 20:25:26 2022 -0700
+
+    Messing With RayCast
+
+:000000 100644 0000000 dd769ab A	src/Assets/Objects/tally.prefab
+:000000 100644 0000000 e0b3fd8 A	src/Assets/Objects/tally.prefab.meta
+:000000 100644 0000000 23ca3d4 A	src/Assets/Scenes/playerScene.unity
+:100644 100644 c3183b9 913505a M	src/Assets/Scripts/playerMovement.cs
+:100644 100644 6cfcdda a702482 M	src/ProjectSettings/Physics2DSettings.asset
+:000000 100644 0000000 cfaebd7 A	src/ProjectSettings/TimelineSettings.asset
+:100644 100644 dfc6151 832cdd2 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 9c6205d13fee00bc1f18b1210cee0ebc94375a1f[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 19:45:29 2022 -0700
+
+    new branch
+
+:000000 100644 0000000 dedd84a A	src/Assets/Scenes/playerScene.unity
+:100644 100644 940559b cb62806 R074	src/Assets/Scenes/testScene.unity.meta	src/Assets/Scenes/playerScene.unity.meta
+:100644 000000 ab80892 0000000 D	src/Assets/Scenes/testScene.unity
+:100644 100644 dfc6151 b3e4cde M	src/UserSettings/EditorUserSettings.asset
+:100644 100644 563a173 110ad8b M	src/UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit cb31c8b149f90245d6306985a4b8312cb1454b60[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 19:09:48 2022 -0700
+
+    Revert "z"
+    
+    This reverts commit 898115ab8e6d4743d6ab02f4a4edd092fbea2aee.
+
+:100644 100644 1537386 d4d1709 M	src/Assets/Scenes/testScene.unity
+:100644 100644 45dcadb 796bbbd M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 2b739b81c601565f6a5fbdfdb5a2f7a08e0ed6a6[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 18:33:31 2022 -0700
+
+    idek
+
+:000000 100644 0000000 0310ca1 A	src/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+
+[33mcommit 63e0aa9abaf42c93581c438042a6696458ce21a4[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 18:32:51 2022 -0700
+
+    Bind
+
+:100644 100644 7d91c75 ab80892 M	src/Assets/Scenes/testScene.unity
+:100644 100644 38783c4 c3183b9 M	src/Assets/Scripts/playerMovement.cs
+:100644 100644 9492375 dfc6151 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 898115ab8e6d4743d6ab02f4a4edd092fbea2aee[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 18:29:02 2022 -0700
+
+    z
+
+:000000 100644 0000000 00e47ec A	sprites/aseprite/Cloud1.aseprite
+:000000 100644 0000000 457cb41 A	sprites/aseprite/Cloud2.aseprite
+:000000 100644 0000000 8b9fc00 A	sprites/aseprite/Cloud3.aseprite
+:000000 100644 0000000 7a399b8 A	sprites/aseprite/Portal.png
+:000000 100644 0000000 795e460 A	src/Assets/Objects/player.prefab
+:000000 100644 0000000 32dffdb A	src/Assets/Objects/player.prefab.meta
+:100644 100644 a1b4faa e3df21c R050	src/Assets/Scenes/tileSetscene.unity	src/Assets/Scenes/portalScene.unity
+:100644 100644 971c557 14bb382 R074	src/Assets/Scenes/tileSetscene.unity.meta	src/Assets/Scenes/portalScene.unity.meta
+:100644 100644 db977c6 7d91c75 M	src/Assets/Scenes/testScene.unity
+:000000 100644 0000000 7a399b8 A	src/Assets/Sprites/Portal.png
+:000000 100644 0000000 a42d79c A	src/Assets/Sprites/Portal.png.meta
+:100644 100644 8ef18e5 9492375 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 7118ef75a07943424d64bd1a350d4d78610c50fc[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 18:25:21 2022 -0700
+
+    box collision
+
+:100644 100644 53005f0 db977c6 M	src/Assets/Scenes/testScene.unity
+:100644 100644 c3183b9 38783c4 M	src/Assets/Scripts/playerMovement.cs
+:100644 100644 45dcadb 8ef18e5 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit c7f828086ee83ed3e370d5f23bcd497ea44758fd[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 16:44:07 2022 -0700
+
+    more basic tiling stuff
+
+:100644 100644 676f85a 92ed8d9 M	src/Assets/Scenes/levels/level_1.unity
+:100644 100644 4608009 6a101ae M	src/ProjectSettings/TagManager.asset
+
+[33mcommit ef61ed090ca34316b64695b270e3ec9f8f761f77[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 16:43:41 2022 -0700
+
+    portal
+
+:000000 100644 0000000 c7768de A	sprites/aseprite/Portal.aseprite
+:100644 100644 1537386 53005f0 M	src/Assets/Scenes/testScene.unity
+
+[33mcommit 6d5c856914e390c25ca176b392737dbc360c7728[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 16:36:05 2022 -0700
+
+    new tile stuff
+
+:100644 100644 80e7bc2 225470f M	sprites/aseprite/spriteSheet.aseprite
+:100644 000000 0577e0d 0000000 D	src/Assets/Animations.meta
+:100644 000000 9fdf6f3 0000000 D	src/Assets/Animations/aether.anim
+:100644 000000 c8700f0 0000000 D	src/Assets/Animations/aether.anim.meta
+:100644 000000 5f49729 0000000 D	src/Assets/Animations/backgroundEther_0.controller
+:100644 100644 b835c35 87f9a85 M	src/Assets/Grass/Grass.prefab
+:100644 000000 66c0648 0000000 D	src/Assets/Sprites/Rectangular Palette.prefab
+:100644 000000 88c68b0 0000000 D	src/Assets/Sprites/Rectangular Palette.prefab.meta
+:100644 100644 2d05be6 2d05be6 R100	src/Assets/Sprites/backgroundEther.png	src/Assets/Sprites/backgroundEther - Copy.png
+:100644 100644 14430df 8b175fb R099	src/Assets/Sprites/backgroundEther.png.meta	src/Assets/Sprites/backgroundEther - Copy.png.meta
+:100644 100644 bcbf0a4 cb106fd M	src/Assets/Sprites/spriteSheet.png
+:100644 100644 2afa280 538dd4f M	src/Assets/Sprites/spriteSheet.png.meta
+:000000 100644 0000000 18525da A	src/Assets/Tiles/ts_base/ethereal.asset
+:100644 100644 1b65141 2a307a3 R064	src/Assets/Animations/backgroundEther_0.controller.meta	src/Assets/Tiles/ts_base/ethereal.asset.meta
+:100644 100644 1c92a78 4608009 M	src/ProjectSettings/TagManager.asset
+:100644 100644 46e127f 45dcadb M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 25a2ffc2595ac078a67424ca053ce7fb78f2bc49[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 16:35:39 2022 -0700
+
+    Jump
+
+:100644 100644 9380fc1 1537386 M	src/Assets/Scenes/testScene.unity
+:100644 100644 b97ee8a 8b6c7ce M	src/Assets/Scripts/bullet.cs
+:100644 100644 334b353 a6642c0 M	src/Assets/Scripts/enemyHealth.cs
+:100644 100644 c11815b 633566a M	src/Assets/Scripts/enemyMovement.cs
+:100644 100644 b0260aa c3183b9 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit e13ab91db250b5dba29cb092fdd9bbc4df7605d4[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 12:31:21 2022 -0700
+
+    Z
+
+:100644 100644 5b5eac1 9380fc1 M	src/Assets/Scenes/testScene.unity
+
+[33mcommit 7cba052b38cd3e794bea1587772f8a5f78fac417[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 12:29:55 2022 -0700
+
+    idek
+
+:100644 100644 4db1b11 46e127f M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit bd2a15ec95b3921ae529d2dd2c8f4e6e52a8534f[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 12:29:08 2022 -0700
+
+    sa
+
+:000000 100644 0000000 334b353 A	src/Assets/Scripts/enemyHealth.cs
+:000000 100644 0000000 71cabe7 A	src/Assets/Scripts/enemyHealth.cs.meta
+
+[33mcommit 18e29421e475d8fd41ac283f6b0aef0649530aeb[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 12:27:50 2022 -0700
+
+    added new scene
+
+:000000 100644 0000000 49a29db A	src/Assets/Scenes/levels.meta
+:000000 100644 0000000 676f85a A	src/Assets/Scenes/levels/level_1.unity
+:000000 100644 0000000 f3bd4fb A	src/Assets/Scenes/levels/level_1.unity.meta
+:100644 100644 38c48e4 5b5eac1 M	src/Assets/Scenes/testScene.unity
+:100644 100644 7630c82 4db1b11 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 9a7ab5c7a6d1de6981ff2d9babbe7c04a741fbc1[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 12:04:43 2022 -0700
+
+    Update enemyMovement.cs
+
+:100644 100644 22202b2 c11815b M	src/Assets/Scripts/enemyMovement.cs
+
+[33mcommit 4e7fcbac08a39d18f7967094f0f8c6c97d9bbb00[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 11:57:22 2022 -0700
+
+    Btime
+
+:100644 100644 e7568b3 b97ee8a M	src/Assets/Scripts/bullet.cs
+:100644 100644 c895e71 22202b2 M	src/Assets/Scripts/enemyMovement.cs
+:100644 100644 8dffc36 63289fa M	src/Assets/Scripts/weapon.cs
+
+[33mcommit 1c281718886c7e15d5c30fe713e9fb3272d82b36[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 11:25:55 2022 -0700
+
+    enemyMovement
+
+:100644 100644 01f3b1b 38c48e4 M	src/Assets/Scenes/testScene.unity
+:000000 100644 0000000 c895e71 A	src/Assets/Scripts/enemyMovement.cs
+:000000 100644 0000000 d64f204 A	src/Assets/Scripts/enemyMovement.cs.meta
+
+[33mcommit 6c9c3a75b16ad5425205aa0c5f163c76bb0af0a4[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 11:24:00 2022 -0700
+
+    more tileset bs
+
+:100644 100644 203c232 318bffd M	src/Assets/Scenes/testTileset.unity
+:100644 100644 1b8c58c 7630c82 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 3de7a2bda79b50b5bd2e86a501bd68c7685657d2[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 11:23:47 2022 -0700
+
+    fixed asynch timer code :)
+
+:100644 100644 2450916 8dffc36 M	src/Assets/Scripts/weapon.cs
+
+[33mcommit 382d94e636cc6163e4d82eb1986c84e83c08125a[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 11:04:58 2022 -0700
+
+    new temp tileset stuff
+
+:000000 100644 0000000 250b5ea A	src/Assets/Grass.meta
+:000000 100644 0000000 b835c35 A	src/Assets/Grass/Grass.prefab
+:000000 100644 0000000 610ec2d A	src/Assets/Grass/Grass.prefab.meta
+:100644 100644 8e29de3 2afa280 M	src/Assets/Sprites/spriteSheet.png.meta
+:000000 100644 0000000 8907b03 A	src/Assets/Tiles.meta
+:000000 100644 0000000 ee94198 A	src/Assets/Tiles/ts_base.meta
+:000000 100644 0000000 c5c4ed5 A	src/Assets/Tiles/ts_base/spriteSheet_0.asset
+:000000 100644 0000000 0086507 A	src/Assets/Tiles/ts_base/spriteSheet_0.asset.meta
+:000000 100644 0000000 226732c A	src/Assets/Tiles/ts_base/spriteSheet_1.asset
+:000000 100644 0000000 ffb872c A	src/Assets/Tiles/ts_base/spriteSheet_1.asset.meta
+:000000 100644 0000000 1390056 A	src/Assets/Tiles/ts_base/spriteSheet_10.asset
+:000000 100644 0000000 5d08f1f A	src/Assets/Tiles/ts_base/spriteSheet_10.asset.meta
+:000000 100644 0000000 e283bc4 A	src/Assets/Tiles/ts_base/spriteSheet_11.asset
+:000000 100644 0000000 9055be3 A	src/Assets/Tiles/ts_base/spriteSheet_11.asset.meta
+:000000 100644 0000000 d781bea A	src/Assets/Tiles/ts_base/spriteSheet_12.asset
+:000000 100644 0000000 55ec03e A	src/Assets/Tiles/ts_base/spriteSheet_12.asset.meta
+:000000 100644 0000000 a694e55 A	src/Assets/Tiles/ts_base/spriteSheet_13.asset
+:000000 100644 0000000 aa44005 A	src/Assets/Tiles/ts_base/spriteSheet_13.asset.meta
+:000000 100644 0000000 e17754f A	src/Assets/Tiles/ts_base/spriteSheet_14.asset
+:000000 100644 0000000 dfca02e A	src/Assets/Tiles/ts_base/spriteSheet_14.asset.meta
+:000000 100644 0000000 4c9bb95 A	src/Assets/Tiles/ts_base/spriteSheet_15.asset
+:000000 100644 0000000 c6a9c59 A	src/Assets/Tiles/ts_base/spriteSheet_15.asset.meta
+:000000 100644 0000000 33008fd A	src/Assets/Tiles/ts_base/spriteSheet_16.asset
+:000000 100644 0000000 c068b70 A	src/Assets/Tiles/ts_base/spriteSheet_16.asset.meta
+:000000 100644 0000000 4cd2ba7 A	src/Assets/Tiles/ts_base/spriteSheet_17.asset
+:000000 100644 0000000 cadaf30 A	src/Assets/Tiles/ts_base/spriteSheet_17.asset.meta
+:000000 100644 0000000 b998023 A	src/Assets/Tiles/ts_base/spriteSheet_18.asset
+:000000 100644 0000000 7d12d15 A	src/Assets/Tiles/ts_base/spriteSheet_18.asset.meta
+:000000 100644 0000000 3cb22d6 A	src/Assets/Tiles/ts_base/spriteSheet_19.asset
+:000000 100644 0000000 30daacf A	src/Assets/Tiles/ts_base/spriteSheet_19.asset.meta
+:000000 100644 0000000 bf60185 A	src/Assets/Tiles/ts_base/spriteSheet_2.asset
+:000000 100644 0000000 8a6cb44 A	src/Assets/Tiles/ts_base/spriteSheet_2.asset.meta
+:000000 100644 0000000 cb544f1 A	src/Assets/Tiles/ts_base/spriteSheet_20.asset
+:000000 100644 0000000 4ce6f30 A	src/Assets/Tiles/ts_base/spriteSheet_20.asset.meta
+:000000 100644 0000000 038cdc1 A	src/Assets/Tiles/ts_base/spriteSheet_21.asset
+:000000 100644 0000000 637aacb A	src/Assets/Tiles/ts_base/spriteSheet_21.asset.meta
+:000000 100644 0000000 79e923e A	src/Assets/Tiles/ts_base/spriteSheet_22.asset
+:000000 100644 0000000 10f0055 A	src/Assets/Tiles/ts_base/spriteSheet_22.asset.meta
+:000000 100644 0000000 cee37d8 A	src/Assets/Tiles/ts_base/spriteSheet_23.asset
+:000000 100644 0000000 3825f3b A	src/Assets/Tiles/ts_base/spriteSheet_23.asset.meta
+:000000 100644 0000000 43257bc A	src/Assets/Tiles/ts_base/spriteSheet_24.asset
+:000000 100644 0000000 12e6db8 A	src/Assets/Tiles/ts_base/spriteSheet_24.asset.meta
+:000000 100644 0000000 2736f27 A	src/Assets/Tiles/ts_base/spriteSheet_25.asset
+:000000 100644 0000000 79239a3 A	src/Assets/Tiles/ts_base/spriteSheet_25.asset.meta
+:000000 100644 0000000 6d5bd99 A	src/Assets/Tiles/ts_base/spriteSheet_26.asset
+:000000 100644 0000000 b26aeea A	src/Assets/Tiles/ts_base/spriteSheet_26.asset.meta
+:000000 100644 0000000 27a3e6c A	src/Assets/Tiles/ts_base/spriteSheet_27.asset
+:000000 100644 0000000 8878047 A	src/Assets/Tiles/ts_base/spriteSheet_27.asset.meta
+:000000 100644 0000000 2f70c54 A	src/Assets/Tiles/ts_base/spriteSheet_3.asset
+:000000 100644 0000000 36ca46e A	src/Assets/Tiles/ts_base/spriteSheet_3.asset.meta
+:000000 100644 0000000 abb0a81 A	src/Assets/Tiles/ts_base/spriteSheet_4.asset
+:000000 100644 0000000 15fc1bf A	src/Assets/Tiles/ts_base/spriteSheet_4.asset.meta
+:000000 100644 0000000 640aec2 A	src/Assets/Tiles/ts_base/spriteSheet_5.asset
+:000000 100644 0000000 2c3f830 A	src/Assets/Tiles/ts_base/spriteSheet_5.asset.meta
+:000000 100644 0000000 618fbaa A	src/Assets/Tiles/ts_base/spriteSheet_6.asset
+:000000 100644 0000000 7aeac53 A	src/Assets/Tiles/ts_base/spriteSheet_6.asset.meta
+:000000 100644 0000000 9f27604 A	src/Assets/Tiles/ts_base/spriteSheet_7.asset
+:000000 100644 0000000 d1f69ea A	src/Assets/Tiles/ts_base/spriteSheet_7.asset.meta
+:000000 100644 0000000 b1b631b A	src/Assets/Tiles/ts_base/spriteSheet_8.asset
+:000000 100644 0000000 96ad0d4 A	src/Assets/Tiles/ts_base/spriteSheet_8.asset.meta
+:000000 100644 0000000 ad077cb A	src/Assets/Tiles/ts_base/spriteSheet_9.asset
+:000000 100644 0000000 2a0be01 A	src/Assets/Tiles/ts_base/spriteSheet_9.asset.meta
+:100644 100644 7630c82 1b8c58c M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit e57608d807e3c37f681cf42cb5bd4ef77b86a564[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 11:04:19 2022 -0700
+
+    Shoot Delay
+
+:100644 100644 fad5f19 3762d02 M	src/Assets/Objects/bullet.prefab
+:100644 100644 5004766 01f3b1b M	src/Assets/Scenes/testScene.unity
+:100644 100644 4eeea10 db502a5 M	src/Assets/Scripts/bullet.cs
+:100644 100644 4eafd15 2450916 M	src/Assets/Scripts/weapon.cs
+
+[33mcommit c45ffe7e2c12faed2a761edd6bd740d710cad1d8[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 10:19:43 2022 -0700
+
+    consistency with newline spacing of functions
+
+:100644 100644 4eeea10 a39abd0 M	src/Assets/Scripts/bullet.cs
+
+[33mcommit c17bc77d22b374ab1c44a2bf08e275aaadc8e381[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 10:19:02 2022 -0700
+
+    Update bullet.cs
+
+:100644 100644 bc44439 4eeea10 M	src/Assets/Scripts/bullet.cs
+
+[33mcommit 9eed0c3573b31c415112be0c6cd1376a7deb8abb[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 05:23:10 2022 -0700
+
+    Update default-2021.dwlt
+
+:100644 100644 859547a 563a173 M	src/UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit 3e4b91a63586c63929368faffed2dc2809521eff[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 05:20:20 2022 -0700
+
+    a
+
+:100644 100644 a152691 5004766 M	src/Assets/Scenes/testScene.unity
+
+[33mcommit cec3803c9913200c9f470ee2f28fac5c9736c22e[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 04:47:44 2022 -0700
+
+    removed debug.log
+
+:100644 100644 4296c4d bc44439 M	src/Assets/Scripts/bullet.cs
+
+[33mcommit 1fa29c645e3edfb6bbda91b4d3aa7b50922c29f7[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 04:45:45 2022 -0700
+
+    Fixed a demonic lowercase letter that cost Nathan like 2 hrs of work lolol
+
+:100644 100644 c2aeed1 4296c4d M	src/Assets/Scripts/bullet.cs
+
+[33mcommit 4f3b27d56e3c3217362ff6c728f50530a383f51a[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 04:45:20 2022 -0700
+
+    Zz
+
+:100644 100644 215007a a152691 M	src/Assets/Scenes/testScene.unity
+
+[33mcommit e86de15d8033093b88cad439472cd7ebb582c923[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 04:42:28 2022 -0700
+
+    optimized code lol
+
+:100644 100644 66a05c7 b0260aa M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit e4ee8f542e417611001ed157c94798d6a07033a9[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 04:41:35 2022 -0700
+
+    Bruh
+
+:100644 100644 9c2d072 215007a M	src/Assets/Scenes/testScene.unity
+
+[33mcommit f0c15998a718dd4e7b3acd8ecbdc1aeb080a297d[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 04:27:22 2022 -0700
+
+    test palette lol
+
+:100644 100644 c2ca0cf 9fdf6f3 M	src/Assets/Animations/aether.anim
+:100644 100644 9c450ff 5f49729 M	src/Assets/Animations/backgroundEther_0.controller
+:100644 100644 68736bf 203c232 M	src/Assets/Scenes/testTileset.unity
+:000000 100644 0000000 66c0648 A	src/Assets/Sprites/Rectangular Palette.prefab
+:000000 100644 0000000 88c68b0 A	src/Assets/Sprites/Rectangular Palette.prefab.meta
+:100644 100644 60c3345 2610e0b M	src/Assets/Sprites/spriteSheet_0.controller
+:100644 100644 0fb07af 7630c82 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 5729bf5fccb515f71a19c13ce1e86f9c4ae971cf[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 04:16:32 2022 -0700
+
+    bullet
+
+:000000 100644 0000000 67290b2 A	src/Assets/Objects.meta
+:000000 100644 0000000 fad5f19 A	src/Assets/Objects/bullet.prefab
+:000000 100644 0000000 1265984 A	src/Assets/Objects/bullet.prefab.meta
+:000000 100644 0000000 c2aeed1 A	src/Assets/Scripts/bullet.cs
+:000000 100644 0000000 ec47293 A	src/Assets/Scripts/bullet.cs.meta
+:000000 100644 0000000 4eafd15 A	src/Assets/Scripts/weapon.cs
+:000000 100644 0000000 aa19da7 A	src/Assets/Scripts/weapon.cs.meta
+:000000 100644 0000000 6852333 A	src/Assets/Sprites/haatode.png
+:000000 100644 0000000 c3b852d A	src/Assets/Sprites/haatode.png.meta
+
+[33mcommit 1ffdf6cab2998bbee5fb8755790906147e0b2bb2[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 03:45:15 2022 -0700
+
+    got some animations :)
+
+:100644 100644 0b7582a e34a24a M	sprites/aseprite/BackgroundEther.aseprite
+:000000 100644 0000000 2d05be6 A	sprites/aseprite/BackgroundEther.png
+:100644 100644 31a8ba0 80e7bc2 M	sprites/aseprite/spriteSheet.aseprite
+:000000 100644 0000000 0577e0d A	src/Assets/Animations.meta
+:000000 100644 0000000 c2ca0cf A	src/Assets/Animations/aether.anim
+:000000 100644 0000000 c8700f0 A	src/Assets/Animations/aether.anim.meta
+:000000 100644 0000000 9c450ff A	src/Assets/Animations/backgroundEther_0.controller
+:000000 100644 0000000 1b65141 A	src/Assets/Animations/backgroundEther_0.controller.meta
+:100644 100644 68f9068 9c2d072 M	src/Assets/Scenes/testScene.unity
+:000000 100644 0000000 68736bf A	src/Assets/Scenes/testTileset.unity
+:000000 100644 0000000 33ae27f A	src/Assets/Scenes/testTileset.unity.meta
+:000000 100644 0000000 2d05be6 A	src/Assets/Sprites/backgroundEther.png
+:000000 100644 0000000 14430df A	src/Assets/Sprites/backgroundEther.png.meta
+:100644 100644 070826e bcbf0a4 M	src/Assets/Sprites/spriteSheet.png
+:100644 100644 5aa5ee7 8e29de3 M	src/Assets/Sprites/spriteSheet.png.meta
+:000000 100644 0000000 60c3345 A	src/Assets/Sprites/spriteSheet_0.controller
+:000000 100644 0000000 5aab638 A	src/Assets/Sprites/spriteSheet_0.controller.meta
+:100644 100644 a5eea6d 0fb07af M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 388eb753c9f0fb4b5f1c8cac65767764f1cc5718[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 03:24:22 2022 -0700
+
+    added aether tiles
+
+:100644 100644 80e7bc2 31a8ba0 M	sprites/aseprite/spriteSheet.aseprite
+:100644 100644 bcbf0a4 070826e M	src/Assets/Sprites/spriteSheet.png
+:100644 100644 e79e6bd 5aa5ee7 M	src/Assets/Sprites/spriteSheet.png.meta
+
+[33mcommit c5d77c34810b9f0bfd0d36842488bab2c4b926cb[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 03:04:37 2022 -0700
+
+    added sprite sheet to unity :)
+
+:000000 100644 0000000 bcbf0a4 A	src/Assets/Sprites/spriteSheet.png
+:000000 100644 0000000 e79e6bd A	src/Assets/Sprites/spriteSheet.png.meta
+
+[33mcommit 4edec54fa417aafb793452ecd3916ba21bffd9d4[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 02:13:50 2022 -0700
+
+    Player Rotate
+
+:100644 100644 32ed253 a1b4faa M	src/Assets/Scenes/tileSetscene.unity
+:100644 100644 31d66b9 33b7395 M	src/Assets/Scripts/playerMovement.cs
+:100644 100644 7afea84 a5eea6d M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 178f5c540477469d2d3997448b5db42eab1672fb[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 02:05:43 2022 -0700
+
+    tileset sky + border
+
+:100644 100644 31d66b9 0dbfc48 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit bc8f6f49113b06878b207e83f1657a9c23da2165[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 02:01:02 2022 -0700
+
+    tileset sky + border
+
+:100644 100644 f66c5b3 80e7bc2 M	sprites/aseprite/spriteSheet.aseprite
+:100644 100644 0dbfc48 31d66b9 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 8e7811e0794637a0a340e6131670585f9ad75e71[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 01:53:08 2022 -0700
+
+    debug messages are bad
+
+:100644 100644 e7371c3 0dbfc48 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 346fe079ce8cf320ff1d2bd400d55711af2b8711[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 01:42:59 2022 -0700
+
+    Tileset setup
+
+:100644 000000 ee46714 0000000 D	src/Assets/Level.meta
+:100644 000000 7b420f6 0000000 D	src/Assets/Level/Level1.unity
+:100644 000000 963ff8e 0000000 D	src/Assets/Level/Level1.unity.meta
+:100644 100644 ec5a564 e7371c3 M	src/Assets/Scripts/playerMovement.cs
+:000000 100644 0000000 c1938e8 A	src/Assets/Sprites/scr1.PNG
+:000000 100644 0000000 a7ef78c A	src/Assets/Sprites/scr1.PNG.meta
+:000000 100644 0000000 a73e440 A	src/Assets/Sprites/scr2.PNG
+:000000 100644 0000000 e4e9608 A	src/Assets/Sprites/scr2.PNG.meta
+:100644 100644 6fd3f2c 6fd3f2c R100	src/Assets/Sprites/TheEggz (1).png	src/Assets/Sprites/theEgg.png
+:100644 100644 d25a054 d25a054 R100	src/Assets/Sprites/TheEggz (1).png.meta	src/Assets/Sprites/theEgg.png.meta
+:100644 100644 12de045 7afea84 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit ea123c18993751febeaa463614552582a6c1ae99[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 01:33:41 2022 -0700
+
+    Git goblind
+
+:000000 100644 0000000 cdc30c4 A	sprites/aseprite/tally.aseprite
+:100644 100644 b22f3b0 68f9068 M	src/Assets/Scenes/testScene.unity
+:100644 100644 10756af 32ed253 R096	src/Assets/Scenes/URP2DSceneTemplate.unity	src/Assets/Scenes/tileSetscene.unity
+:100644 100644 c1e3c88 971c557 R074	src/Assets/Scenes/URP2DSceneTemplate.unity.meta	src/Assets/Scenes/tileSetscene.unity.meta
+:000000 100644 0000000 35724ad A	src/Assets/Sprites/tally.png
+:000000 100644 0000000 8ac65b0 A	src/Assets/Sprites/tally.png.meta
+:100644 100644 5f7c784 1013002 M	src/ProjectSettings/EditorBuildSettings.asset
+:100644 100644 b4f2d32 12de045 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 70f2b7279db9169aea30e7001c2039dd71266c42[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 01:33:08 2022 -0700
+
+    fixed shitty rotate mechanic (job hirers pls forgive)
+
+:100644 100644 95bed84 ec5a564 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 87ab42932a4852b5dd321c3f225a4cfdd81f8f7e[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 01:15:58 2022 -0700
+
+    fixed rot error + serialized fields
+
+:100644 100644 9928ea8 95bed84 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 38ce9aa55b81fbe409c85b6034e76f53c674a675[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Sat Jul 30 00:38:51 2022 -0700
+
+    Update playerMovement.cs
+
+:100644 100644 833c12c 9928ea8 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 2b5f22c6103c24baa8877439940e4a5693d62f11[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Sat Jul 30 00:34:11 2022 -0700
+
+    new sprite + spritesheet
+
+:000000 100644 0000000 adb3369 A	sprites/aseprite/dirtCorrupted.aseprite
+:000000 100644 0000000 f66c5b3 A	sprites/aseprite/spriteSheet.aseprite
+
+[33mcommit e09cb82979e388a6abae6b480819ae752d039b1c[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 23:35:03 2022 -0700
+
+    z
+
+:100644 100644 995f256 833c12c M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 88b16f892ea9bf951952cfcd28dcc4af0ee441f9[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Fri Jul 29 23:32:35 2022 -0700
+
+    checking for mistake????
+
+:100644 100644 a15135f 8f2d951 M	.gitignore
+
+[33mcommit 58ae33a0522a100772412a8a12f25f3543d56296[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Fri Jul 29 23:29:59 2022 -0700
+
+    ignored stupid settings bullshit
+
+:100644 100644 cb29ff4 a15135f M	.gitignore
+
+[33mcommit 02dc1f1e15da59275b97bead16c10138387f1d6f[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 23:26:14 2022 -0700
+
+    Speed
+
+:100644 100644 3f8bc72 995f256 M	src/Assets/Scripts/playerMovement.cs
+:100644 100644 a245ebe b4f2d32 M	src/UserSettings/EditorUserSettings.asset
+
+[33mcommit 4ee6aa8beca34b27cf68db9aa5c49f9e3cb58cab[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 23:20:47 2022 -0700
+
+    testScene
+
+:000000 100644 0000000 b22f3b0 A	src/Assets/Scenes/testScene.unity
+:000000 100644 0000000 940559b A	src/Assets/Scenes/testScene.unity.meta
+:100644 100644 84cc563 3f8bc72 M	src/Assets/Scripts/playerMovement.cs
+
+[33mcommit 375ceda324314e0391aef3353ad059089ba713cc[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 23:18:17 2022 -0700
+
+    Gob
+
+:100644 100644 65e05a4 65e05a4 R100	src/Assets/Settings/Scenes.meta	src/Assets/Scenes.meta
+:100644 100644 10756af 10756af R100	src/Assets/Settings/Scenes/URP2DSceneTemplate.unity	src/Assets/Scenes/URP2DSceneTemplate.unity
+:100644 100644 c1e3c88 c1e3c88 R100	src/Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta	src/Assets/Scenes/URP2DSceneTemplate.unity.meta
+:000000 100644 0000000 84cc563 A	src/Assets/Scripts/playerMovement.cs
+:000000 100644 0000000 4877f11 A	src/Assets/Scripts/playerMovement.cs.meta
+
+[33mcommit 5405b649fc1deae73b13ba084218ffe77d395cfd[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Fri Jul 29 23:13:58 2022 -0700
+
+    fixed casing and directory issues
+
+:100644 100644 0b7582a 0b7582a R100	Sprites/BackgroundEther.aseprite	sprites/aseprite/BackgroundEther.aseprite
+:000000 100644 0000000 f05656c A	sprites/aseprite/dirt.aseprite
+
+[33mcommit 59ed6707ce18bf59bbc1d6317fd39f0f6c9815cd[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 22:44:10 2022 -0700
+
+    S
+
+:000000 100644 0000000 96b8f2a A	src/Assets/Scripts.meta
+
+[33mcommit 666282eb68441a65dd53be0779c1174c1ec470b1[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 22:42:52 2022 -0700
+
+    Rename to level
+
+:100644 100644 ee46714 ee46714 R100	src/Assets/Scenes.meta	src/Assets/Level.meta
+:100644 100644 7b420f6 7b420f6 R100	src/Assets/Scenes/SampleScene.unity	src/Assets/Level/Level1.unity
+:100644 100644 963ff8e 963ff8e R100	src/Assets/Scenes/SampleScene.unity.meta	src/Assets/Level/Level1.unity.meta
+
+[33mcommit a2a960298c9ac0a55e7bf9964cb10c98d7b33851[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 22:38:27 2022 -0700
+
+    Added Sprite
+
+:000000 100644 0000000 ac45a6b A	src/Assets/Sprites.meta
+:000000 100644 0000000 6fd3f2c A	src/Assets/Sprites/TheEggz (1).png
+:000000 100644 0000000 d25a054 A	src/Assets/Sprites/TheEggz (1).png.meta
+:000000 100644 0000000 6f3e60f A	src/ProjectSettings/SceneTemplateSettings.json
+
+[33mcommit 917afb7854ee4603d218bbf011b5cf76c6fc5c1d[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 22:31:23 2022 -0700
+
+    zz
+
+:100644 100644 d5625d4 c854e86 M	src/Packages/manifest.json
+:100644 100644 f5810df 6d7294c M	src/Packages/packages-lock.json
+:100644 100644 4cb0460 a24a977 M	src/ProjectSettings/ProjectVersion.txt
+:100644 100644 e220669 859547a M	src/UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit 0779c0b102f87017ca1b131f1b4fcaf5ac3713e9[m
+Author: zoistie <68969173+zoistie@users.noreply.github.com>
+Date:   Fri Jul 29 18:07:01 2022 -0700
+
+    Ur mom
+
+:000000 100644 0000000 0b7582a A	Sprites/BackgroundEther.aseprite
+:100644 100644 26ea8af ae9e818 M	src/ProjectSettings/GraphicsSettings.asset
+:000000 100644 0000000 9b28428 A	src/ProjectSettings/ShaderGraphSettings.asset
+:100644 100644 400c2eb e220669 M	src/UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit 48afca7451a6a7b9d20ad239fbd9f41b72b7517d[m
+Author: Gobind Kapoor <kapoorgobind@gmail.com>
+Date:   Wed Jul 27 14:25:41 2022 -0700
+
+    added unity
+
+:100644 100644 8af868e cb29ff4 M	.gitignore
+:000000 100644 0000000 ee46714 A	src/Assets/Scenes.meta
+:000000 100644 0000000 7b420f6 A	src/Assets/Scenes/SampleScene.unity
+:000000 100644 0000000 963ff8e A	src/Assets/Scenes/SampleScene.unity.meta
+:000000 100644 0000000 b36ca5e A	src/Assets/Settings.meta
+:000000 100644 0000000 57b5b8f A	src/Assets/Settings/Lit2DSceneTemplate.scenetemplate
+:000000 100644 0000000 0364f69 A	src/Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta
+:000000 100644 0000000 b513f86 A	src/Assets/Settings/Renderer2D.asset
+:000000 100644 0000000 99dc6c5 A	src/Assets/Settings/Renderer2D.asset.meta
+:000000 100644 0000000 65e05a4 A	src/Assets/Settings/Scenes.meta
+:000000 100644 0000000 10756af A	src/Assets/Settings/Scenes/URP2DSceneTemplate.unity
+:000000 100644 0000000 c1e3c88 A	src/Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta
+:000000 100644 0000000 2d37aa1 A	src/Assets/Settings/UniversalRP.asset
+:000000 100644 0000000 6f92f2d A	src/Assets/Settings/UniversalRP.asset.meta
+:000000 100644 0000000 a996a2e A	src/Assets/UniversalRenderPipelineGlobalSettings.asset
+:000000 100644 0000000 cda4484 A	src/Assets/UniversalRenderPipelineGlobalSettings.asset.meta
+:000000 100644 0000000 d5625d4 A	src/Packages/manifest.json
+:000000 100644 0000000 f5810df A	src/Packages/packages-lock.json
+:000000 100644 0000000 27287fe A	src/ProjectSettings/AudioManager.asset
+:000000 100644 0000000 e7886b2 A	src/ProjectSettings/ClusterInputManager.asset
+:000000 100644 0000000 fc90ab9 A	src/ProjectSettings/DynamicsManager.asset
+:000000 100644 0000000 5f7c784 A	src/ProjectSettings/EditorBuildSettings.asset
+:000000 100644 0000000 c7e5e97 A	src/ProjectSettings/EditorSettings.asset
+:000000 100644 0000000 26ea8af A	src/ProjectSettings/GraphicsSettings.asset
+:000000 100644 0000000 b16147e A	src/ProjectSettings/InputManager.asset
+:000000 100644 0000000 5b5face A	src/ProjectSettings/MemorySettings.asset
+:000000 100644 0000000 3b0b7c3 A	src/ProjectSettings/NavMeshAreas.asset
+:000000 100644 0000000 5dc6a83 A	src/ProjectSettings/NetworkManager.asset
+:000000 100644 0000000 497eb8c A	src/ProjectSettings/PackageManagerSettings.asset
+:000000 100644 0000000 6cfcdda A	src/ProjectSettings/Physics2DSettings.asset
+:000000 100644 0000000 67a94da A	src/ProjectSettings/PresetManager.asset
+:000000 100644 0000000 d5544cb A	src/ProjectSettings/ProjectSettings.asset
+:000000 100644 0000000 4cb0460 A	src/ProjectSettings/ProjectVersion.txt
+:000000 100644 0000000 435fe23 A	src/ProjectSettings/QualitySettings.asset
+:000000 100644 0000000 1c92a78 A	src/ProjectSettings/TagManager.asset
+:000000 100644 0000000 558a017 A	src/ProjectSettings/TimeManager.asset
+:000000 100644 0000000 c1f118a A	src/ProjectSettings/URPProjectSettings.asset
+:000000 100644 0000000 6125b30 A	src/ProjectSettings/UnityConnectSettings.asset
+:000000 100644 0000000 3a95c98 A	src/ProjectSettings/VFXManager.asset
+:000000 100644 0000000 dca2881 A	src/ProjectSettings/VersionControlSettings.asset
+:000000 100644 0000000 482590c A	src/ProjectSettings/XRSettings.asset
+:000000 100644 0000000 e69de29 A	src/ProjectSettings/boot.config
+:000000 100644 0000000 a245ebe A	src/UserSettings/EditorUserSettings.asset
+:000000 100644 0000000 400c2eb A	src/UserSettings/Layouts/default-2021.dwlt
+:000000 100644 0000000 dba62d5 A	src/UserSettings/Search.index
+:000000 100644 0000000 e569c31 A	src/UserSettings/Search.settings
+
+[33mcommit 08abef964e8da195a2699d4e7aa142106403bd04[m
+Author: Gobind Singh Kapoor <64379859+gskapoor@users.noreply.github.com>
+Date:   Wed Jul 27 12:44:08 2022 -0700
+
+    Initial commit
+
+:000000 100644 0000000 8af868e A	.gitignore
+:000000 100644 0000000 8c60dd6 A	README.md

@@ -16,7 +16,7 @@ public class weapon : MonoBehaviour
     void Update()
     {
         
-        if(Input.GetKey(KeyCode.J) && canShoot == true)
+        if(Input.GetButton("Fire1") && canShoot == true)
         {
             Shoot();
             canShoot = false;
